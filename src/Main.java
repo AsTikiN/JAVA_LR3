@@ -13,5 +13,8 @@ public class Main {
         System.out.println("Rounded float to int value: " + i);
         b = (byte)i;
         System.out.println("Converted int to byte value: " + b);
+
+        double res = Math.pow(Math.sin(f), 2) + 2 * Math.pow(2, 1.0 / b);
+        System.out.println("Result of the equation: " + res);
     }
 }
